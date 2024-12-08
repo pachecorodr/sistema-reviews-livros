@@ -40,3 +40,41 @@ Bem-vindo ao Sistema de Reviews de Livros! Este projeto permite que os usuários
 - Um gerenciador de pacotes como npm ou yarn.
 ### Passo a Passo
 #### Clone este repositório:
+`git clone https://github.com/pachecorodr/sistema-reviews-livros.git
+cd sistema-reviews-livros`
+
+#### Instale as dependências:
+
+`npm install`
+
+#### Configure o banco de dados:
+
+- Configure as credenciais no arquivo .env (exemplo incluído no repositório).
+- Execute as migrações para criar as tabelas no banco:
+`npm run migrate`
+
+#### Inicie o servidor:
+
+`npm start`
+
+#### Acesse o sistema no navegador:
+
+- URL padrão: http://localhost:3000
+
+## 📖 Como Contribuir
+1- Faça um fork deste repositório.
+
+2- Crie uma branch para a sua feature:
+`git checkout -b minha-feature`
+
+3- Commit suas alterações:
+`git commit -m "Adiciona nova funcionalidade`
+
+4- Faça um push para sua branch:
+`git push origin minha-feature`
+
+5- Abra um Pull Request!
+
+✨ Contato
+- Autor: Rodrigo Pacheco de Almeida
+- Email: r.pacheco@gsuite.iff.edu.br
